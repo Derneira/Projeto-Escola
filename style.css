@@ -1,0 +1,230 @@
+body{
+    text-decoration: none;
+display: flex;
+width: 920px;
+padding: 50px;
+justify-content: center;
+align-items: flex-start;
+align-content: flex-start;
+gap: 18px, 33px, 18px, 33px;
+flex-wrap: wrap;
+background: var(--branco-fundo, #E0DCEB);
+}
+.boxitem{
+    display: flex;
+width: 150px;
+height: 250px;
+padding: 14px, 24px, 14px, 24px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 5px;
+flex-shrink: 0;
+border-radius: 12px;
+background: var(--cor-fundo-inputs, #F0F0F0);
+}
+.estrelasdeavavaliacao{
+    width: 17.5px;
+    height: 7px;
+    display: flex;
+justify-content: left;
+align-items: left;
+gap: 1px;
+left: 7px;
+top: 6.5px;
+}
+.star{
+    width: 7px;
+    height: 7px;
+    background: url(<path-to-image>), rgb(20, 20, 20) 50% / contain no-repeat;
+}
+.txt5-0{
+    text-decoration: none;
+    width: 8px;
+    height: 5.5px;
+    color: var(--roxo-principal, #483D8B);
+    font-family: Rubik;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.relogioimgpreto{
+    width: 90px;
+height: 100px;
+flex-shrink: 0;
+background: url(<path-to-image>), lightgray -11.971px 0.277px / 113.111% 100% no-repeat;
+}
+.frame245{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 5px;
+align-self: stretch;
+width: 126px;
+height: 103.5px;
+}
+.frame323{
+    display: flex;
+padding: 5px;
+align-items: center;
+gap: 3px;
+width: 183px;
+height: 26px;
+}
+.btnselecionarcorimg{
+    display: flex;
+padding: 1.5px;
+justify-content: center;
+align-items: center;
+gap: 5px;
+border-radius: 25px;
+background: var(--cor-fundo-inputs, #F0F0F0);
+}
+.btnselecionarimgpreto{
+    border-radius: 25px;
+background: var(--roxo-principal, #483D8B);
+}
+.corimgpreto{
+    width: 13px;
+    height: 13px;
+    border-radius: 25px;
+border: 1px solid var(--cinza-claro-bordas-inputs, #C2BAD8);
+background: #1E1E1E;
+box-shadow: 1px 2px 2px 0px #000 inset;
+}
+.corimgcinzabranco1{
+    width: 13px;
+    height: 12.5px;
+    display: flex;
+padding-left: 0px;
+justify-content: flex-end;
+align-items: center;
+border-radius: 25px;
+border: 1px solid var(--cinza-claro-bordas-inputs, #C2BAD8);
+background: #3B465C;
+box-shadow: 1px 2px 2px 0px #000 inset;
+}
+.corimgcinzabranco2{
+    width: 6.5px;
+    height: 12.5px;
+    background: #CBCBCB;
+}
+.corimgcinza{
+    width: 13px;
+    height: 13px;
+    border-radius: 25px;
+border: 1px solid var(--cinza-claro-bordas-inputs, #C2BAD8);
+background: #293255;
+box-shadow: 1px 2px 2px 0px #000 inset;
+}
+.corimgazul{
+    width: 13px;
+    height: 13px;
+    border-radius: 25px;
+border: 1px solid var(--cinza-claro-bordas-inputs, #C2BAD8);
+background: #4FB2F3;
+box-shadow: 1px 2px 2px 0px #000 inset;
+}
+.riloguioesmalteualtetrez{
+    width: 126px;
+    height: 13px;
+    text-decoration: none;
+    align-self: stretch;
+    color: var(--cinza-quase-preto, #343434);
+font-family: Roboto Condensed;
+font-size: 11px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.frame324{
+    width: 126px;
+    height: 23px;
+    display: flex;
+padding: 2px, 5px, 2px, 5px;
+justify-content: space-between;
+align-items: center;
+align-self: stretch;
+
+}
+.frame424{
+    width: 47px;
+    height: 19px;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+}
+.rs4899-99{
+    width: 28px;
+    height: 7px;
+    text-decoration: line-through;
+    color: var(--cinza, #8E8E8E);
+font-family: Rubik;
+font-size: 4px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+color: var(--cinza, #8E8E8E);
+font-family: Rubik;
+font-size: 6px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.rs2499-99{
+    width: 47px;
+    height: 12px;
+    text-decoration: none;
+    color: var(--roxo-principal, #483D8B);
+font-family: Rubik;
+font-size: 6px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+color: var(--roxo-principal, #483D8B);
+font-family: Rubik;
+font-size: 10px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.btnfavoritaritem{
+    height: 15px;
+    display: flex;
+width: 21.5px;
+padding: 1px;
+justify-content: center;
+align-items: center;
+gap: 5px;
+}
+.heart{
+    width: 18px;
+height: 18px;
+flex-shrink: 0;
+background: url(<path-to-image>), lightgray 50% / contain no-repeat;
+}
+.frame325{
+    width: 84px;
+    height: 26.5px;
+    display: flex;
+padding: 8px, 23px, 8px, 23px;
+justify-content: center;
+align-items: center;
+gap: 5px;
+border-radius: 6px;
+background: var(--roxo-principal, #483D8B);
+}
+.comprar{
+    justify-content: center;
+align-items: center;
+    text-decoration: none;
+    color: #FFF;
+font-family: Rubik;
+font-size: 9px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
